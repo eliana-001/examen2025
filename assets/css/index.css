@@ -1,1 +1,134 @@
 @import url('../css/main.css');
+
+header h1 {
+    font-size: 2rem;
+    text-align: left;
+    margin-top: 1rem;
+}
+#saldo{
+    font-size: 1.5rem;
+    color: var(--color-principal);
+    margin-top: 1rem;
+}
+#saldo p{
+    font-size: 1.5rem;
+    color: var(--color-oscuro);
+    justify-content: center;
+    margin-top: 1rem;
+    text-align: right;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 8px;
+}
+nav svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    fill: var(--color-principal);
+}
+nav svg:hover {
+    fill: var(--color-secundario);
+}
+nav ::content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+nav a {
+    text-decoration: none;
+    color: var(--color-oscuro);
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin: 0 1rem;
+        
+}
+
+#utilidades {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+}
+#utilidades a {
+    text-decoration: none;
+    color: var(--color-principal);
+    font-weight: bold;
+    margin: 0.5rem 0;
+}
+#utilidades a:hover {
+    color: var(--color-secundario);
+}
+#utilidades svg {
+    width: 2rem;
+    height: 2rem;
+    fill: var(--color-principal);
+    margin-right: 0.5rem;
+}
+#promos {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--color-gris);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#promos h2 {
+    font-size: 1.5rem;
+    color: var(--color-principal);
+    margin-bottom: 1rem;
+    text-align: left;
+}
+#promos img {
+    width: 30%;
+    height: 40%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    float: right;
+}
+
+#gastos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+    border-radius: 25px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#menu {
+    display: flex;
+    padding: 1rem;
+    border-radius: 25px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: var(--color-secundario);
+    padding: 1rem;
+}
+menu svg {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 1rem;
+    cursor: pointer;
+    fill: var(--color-gris);
+}
