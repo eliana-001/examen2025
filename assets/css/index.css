@@ -125,10 +125,18 @@ nav a {
     background-color: var(--color-secundario);
     padding: 1rem;
 }
-menu svg {
+#menu svg {
     width: 2rem;
     height: 2rem;
     margin: 0 1rem;
     cursor: pointer;
-    fill: var(--color-gris);
+    fill: var(--color-oscuro);
+}
+#menu a {
+    text-decoration: none;
+    color: var(--color-oscuro);
+    font-weight: bold;
+    font-size: 1.2rem;
+    justify-content: center;
+    margin: 0 1rem;
 }
